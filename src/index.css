@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  input {
+    outline: none;
+    @apply border-0 bg-transparent text-gray-900;
+  }
+}
+
+@layer components {
+  .box {
+    @apply rounded-lg bg-white shadow-lg;
+  }
+}
